@@ -79,7 +79,7 @@ function App() {
   const lightMode = () => {
     setMode("light");
     document.body.style.backgroundColor = "white";
-    showAlert("Light mode has been enabled", "success");
+    showAlert(" mode has been enabled", "success");
   };
 
   return (
