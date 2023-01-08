@@ -63,19 +63,25 @@ export default function TextBox(props) {
             rows="8"
           ></textarea>
         </div>
-        <button className="btn btn-primary mx-1" onClick={handleUpClick}>
+        <button className="btn btn-primary mx-1 my-2" onClick={handleUpClick}>
           Convert to Uppercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleLoClick}>
+        <button className="btn btn-primary mx-1 my-2" onClick={handleLoClick}>
           Convert to Lowercase
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleClearClick}>
+        <button
+          className="btn btn-primary mx-1 my-2"
+          onClick={handleClearClick}
+        >
           Clear
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleSpacesClick}>
+        <button
+          className="btn btn-primary mx-1 my-2"
+          onClick={handleSpacesClick}
+        >
           Remove Spaces
         </button>
-        <button className="btn btn-primary mx-1" onClick={handleCopyClick}>
+        <button className="btn btn-primary mx-1 my-2" onClick={handleCopyClick}>
           Copy Text
         </button>
       </div>
